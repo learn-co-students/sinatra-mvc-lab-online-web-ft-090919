@@ -1,5 +1,8 @@
 class PigLatinizer
 
+  def piglatinize(string)
+    string.split(" ").size > 1 ? translate_sentence(string) : translate_word(string)
+  end
   def consonant?(char)
     !char.match(/[aAeEiIoOuU]/)
   end
