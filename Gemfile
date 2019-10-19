@@ -7,7 +7,7 @@ gem 'sinatra'
 gem 'rake'
 gem 'thin'
 gem 'shotgun'
-gem 'pry'
+gem 'pry-moves'
 gem 'require_all'
 
 group :test do
