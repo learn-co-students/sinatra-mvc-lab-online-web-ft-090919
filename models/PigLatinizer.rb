@@ -1,7 +1,7 @@
 require 'pry'
 class PigLatinizer
 
-  def piglatinize (str)
+  def piglatinize(str)
     str.split(' ').map do |word|
       piglatinizeword(word)
     end.join(' ')
