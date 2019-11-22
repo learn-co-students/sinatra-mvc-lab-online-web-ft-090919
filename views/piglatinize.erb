@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PigLatinizer</title>
+    </head>
+    <body>
+        <h2>Your phrase was: <%= @user_phrase %></h2>
+        
+        <h2>PigLatinized: 
+        <% pig = PigLatinizer.new %>
+        <%= pig.piglatinize(@user_phrase) %></h2>
+    </body>
+</html>
